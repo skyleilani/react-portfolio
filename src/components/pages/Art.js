@@ -1,17 +1,17 @@
-import { Link } from "react-router-dom";
-import Dropdown from "../menu/Dropdown.js";
-import Carousel from "../carousel/Carousel.js";
-import { artPhotos } from "../../tools/artPhotos.js";
-import "./pages.css";
-import "../../styles.css";
+import {Link} from 'react-router-dom';
+import Dropdown from '../menu/Dropdown.js';
+import Carousel from '../carousel/Carousel.js';
+import {artPhotos} from '../../tools/artPhotos.js';
+import './pages.css';
+import '../../styles.css';
 
 const Art = () => {
   return (
-    <div className="art">
-      <Link className="name" to="/">
+    <div className='art'>
+      <Link className='name' to='/'>
         Sky Leilani
       </Link>
-      <div className="button">
+      <div className='button'>
         <Dropdown />
       </div>
       <div>
