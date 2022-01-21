@@ -1,7 +1,7 @@
-import React, { useEffect, useState, useRef } from "react";
-import { Link } from "react-router-dom";
+import React, {useEffect, useState, useRef} from 'react';
+import {Link} from 'react-router-dom';
 
-const Carousel = ({ photos }) => {
+const Carousel = ({photos}) => {
   const [currImg, setCurrImg] = useState(0);
   const timeout = useRef(null);
   const length = photos.length;
@@ -39,19 +39,19 @@ const Carousel = ({ photos }) => {
   }
 
   return (
-    <div className="carousel-holder">
-      <Link className="name" to="/">
+    <div className='carousel-holder'>
+      <Link className='name' to='/'>
         Sky Leilani
       </Link>
       <section
-        className="carousel"
-        style={{ transform: `translate(${-currImg * 100}%, 0, 0)` }}
+        className='carousel'
+        style={{transform: `translate(${-currImg * 100}%, 0, 0)`}}
       >
         {photos.map((img, index) => {
           console.log(img.album);
           return (
             <div
-              className={index === currImg ? "slide active" : "slide"}
+              className={index === currImg ? 'slide active' : 'slide'}
               key={index}
               //when current card is 0, movec position of slide by 0%
               // when current card is 1 move position -100%
@@ -62,37 +62,39 @@ const Carousel = ({ photos }) => {
                   src={img.img_url}
                   alt={img.id}
                   key={img.id + 1}
-                  className="img"
+                  className='img'
                 />
               )}
 
-              <Link className="title" key={index} to="#">
+              <Link className='title' key={index} to='#'>
                 {img.name}
               </Link>
-              <Link className="album" key={index} to="#">
-                {img.album === "undefined" || null
-                  ? ""
-                  : ` Album: ${img.album}` }
+              <Link className='album' key={index} to='#'>
+                {img.album === 'undefined' || null
+                  ? ''
+                  : ` Album: ${img.album}`}
               </Link>
-              <Link className="date" key={index} to="#">
+              <Link className='date' key={index} to='#'>
                 {`Date Created: ${img.date}`}
               </Link>
             </div>
           );
         })}
-        <div className="carouselDots">
-          {photos.map((
-            _,
-            img_idx // _ is a placeholder its null bc we dont need that arg
-          ) => (
-            <div
-              key={img_idx}
-              className={`carouselDot${currImg === img_idx ? "active" : ""}`}
-              onClick={() => {
-                setCurrImg(img_idx);
-              }}
-            ></div>
-          ))}
+        <div className='carouselDots'>
+          {photos.map(
+            (
+              _,
+              img_idx // _ is a placeholder its null bc we dont need that arg
+            ) => (
+              <div
+                key={img_idx}
+                className={`carouselDot${currImg === img_idx ? 'active' : ''}`}
+                onClick={() => {
+                  setCurrImg(img_idx);
+                }}
+              ></div>
+            )
+          )}
         </div>
       </section>
     </div>
