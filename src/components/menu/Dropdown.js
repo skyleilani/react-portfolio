@@ -1,9 +1,9 @@
-import { useRef } from "react";
-import { useCancelOffButton } from "../tools/useCancelOffButton";
-import DropdownButton from "./DropdownButton";
-import { Link } from "react-router-dom";
+import {useRef} from 'react';
+import {useCancelOffButton} from '../tools/useCancelOffButton';
+import DropdownButton from './DropdownButton';
+import {Link} from 'react-router-dom';
 
-import "../../styles.css";
+import '../../styles.css';
 
 const Dropdown = (props) => {
   const dropdown = useRef(null);
@@ -11,30 +11,30 @@ const Dropdown = (props) => {
   const onClick = () => setIsActive(!isActive);
 
   return (
-    <div className="dropdown-container">
-      <div className="menu-container">
-        <button onClick={onClick} className="dropdown-trigger">
-          <DropdownButton lines="3" />
+    <div className='dropdown-container'>
+      <div className='menu-container'>
+        <button onClick={onClick} className='dropdown-trigger'>
+          <DropdownButton lines='3' />
         </button>
         <nav
           ref={dropdown}
-          className={`dropdown ${isActive ? "active" : "inactive"}`}
+          className={`dropdown ${isActive ? 'active' : 'inactive'}`}
         >
           <ul>
             <li>
-              <Link className="art" to="/art">
+              <Link className='art' to='/art'>
                 Art
               </Link>
             </li>
             <li>
-              <Link className="tech" to="/tech">
+              <Link className='tech' to='/tech'>
                 Tech
               </Link>
             </li>
             <li>
-              <Link className="about" to="/about">
+              <Link className='about' to='/about'>
                 About
-              </Link>{" "}
+              </Link>{' '}
             </li>
           </ul>
         </nav>
