@@ -1,5 +1,5 @@
 # Sky Leilani's Portfolio #
-A portfolio website that was designed and developed as a platform to showcase my design and development skills as a front-end developer
+A portfolio website that was designed and developed as a platform to showcase my personal artwork as well as design and development skills as a front-end developer
 
 ### Overview ###
 
