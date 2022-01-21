@@ -1,6 +1,6 @@
-const DropdownButton = ({ lines }) => {
+const DropdownButton = ({lines}) => {
   return [...Array(parseInt(lines))].map((_, i) => (
-    <div className="line" key={i}></div>
+    <div className='line' key={i}></div>
   ));
 };
 
