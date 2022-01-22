@@ -70,6 +70,10 @@ body {
   background-color: #fff;
 }
 
+.carouselDot:hover {
+  background-color: #567548;
+}
+
 .carouselDotactive {
   display: inline-block;
   margin: 35px 8px 0px;
@@ -207,4 +211,40 @@ body {
 
 .album:hover {
   color: #6d6b6b;
+}
+
+/*cursor*/
+
+html,
+body {
+  cursor: none;
+}
+html*,
+body* {
+  cursor: none;
+}
+
+.cursor {
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  border: 0.5px solid #fff;
+  border-radius: 100%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  transition: all 100ms ease;
+  transition-property: opacity;
+}
+
+.c--hidden {
+  opacity: 0;
+}
+
+.c--clicked {
+  transform: translate(-50%, -50%) scale(0.5);
+  background-color: #121212;
+}
+
+.cursor--link-hovered {
+  transform: translate(-50%, -50%) scale(15);
 }
