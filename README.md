@@ -12,6 +12,9 @@ This project is built using React so it's easier to update due to reusable compo
 * GitHub
 
 ### Features ### 
+* Image Carousel 
+
+* Custom Cursor
 
 ### Author ###
 
