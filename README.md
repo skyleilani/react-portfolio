@@ -24,6 +24,9 @@ This project is built using React so it's easier to update due to reusable compo
 
 
 ### Debugging To Do 
+- [x] Carousel Dots should change pictures according to position in array 
+- [ ] Custom Cursor shouldn't be chagning background image positioning 
+- [ ] Custom Cursor should not dissapear on click and then reappear on second click 
 
 
 ##### Features to Impliment 
