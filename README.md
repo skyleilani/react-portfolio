@@ -8,8 +8,6 @@ This project is built using React so it's easier to update due to reusable compo
 ## Technologies  
 
 * React
-* HTML5
-* GitHub
 
 ## Features  
 
@@ -32,7 +30,7 @@ This project is built using React so it's easier to update due to reusable compo
 
 - [ ] Function that inverses color (use this for the custom cursors background color as well as the Image descrip's font color)
 - [ ] Smooth Scroll, Scroll Trigger for page transitions 
-- [ ] 
+
 ### Author ###
 
 Sky Leilani
