@@ -6,6 +6,7 @@ https://reyex.csb.app/
 ## Overview 
 
 This project is built using React so it's easier to update due to reusable components. 
+My goal is to limit the libraries and imports used cause that shit bothers me sometimes. 
 
 ## Technologies  
 
