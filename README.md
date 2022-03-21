@@ -1,4 +1,4 @@
-# Sky Leilani's Portfolio - IN PROGRESS & VERY BUGGY !!!!!!!!!!! #
+# react portfolio - IN PROGRESS & VERY BUGGY !!!!!!!!!!! #
 A portfolio website that was designed and developed as a platform to showcase my personal artwork as well as my growth with design and development skills as a front-end developer
 
 https://reyex.csb.app/
