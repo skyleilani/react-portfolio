@@ -1,5 +1,6 @@
-# react portfolio - IN PROGRESS & VERY BUGGY !!!!!!!!!!! #
-A portfolio website that was designed and developed as a platform to showcase my personal artwork as well as my growth with design and development skills as a front-end developer
+# react portfolio - in progress as I learn React 
+
+A portfolio website that was designed and developed as a platform to showcase my personal artwork as well as my growth with design. This is a constant work in progress as I gain skills in React. 
 
 https://reyex.csb.app/
 
