@@ -1,4 +1,4 @@
-# react portfolio - extremely buggy portfolio baby from my first time working with react 
+# react portfolio - extremely buggy portfolio baby from my first time working with react (January 20th 2022)
 
 https://reyex.csb.app/
 
